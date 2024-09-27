@@ -1,53 +1,39 @@
 import pytest
 import inspect
-from assignment import print_love_python, sum_of_n_numbers, sum_of_digits, count_digits, print_from_five_to
+from assignment import find_factorial, sum_odd_numbers, is_perfect_number
 
 def check_contains_loop(function):
     source = inspect.getsource(function)
     return 'for' in source or 'while' in source
-    
-def test1(capsys):
-    print_love_python()
-    captured = capsys.readouterr()
-    assert captured.out.strip() == "\n".join(["I Love Python"] * 10)
-    assert check_contains_loop(print_love_python)
 
 @pytest.mark.parametrize("input, expected", [
-    (5, 15),
-    (11, 66),
+    (5, 120),
+    (1, 1),
     (3, 6),
-    (0, 0)
+    (7, 5040)
+])
+def test1(input, expected):
+    assert find_factorial(input) == expected
+    assert check_contains_loop(find_factorial)
+
+@pytest.mark.parametrize("input, expected", [
+    (5, 25),
+    (1, 1),
+    (4, 16),
+    (0, 0),
+    (3, 9)
 ])
 def test2(input, expected):
-    assert sum_of_n_numbers(input) == expected
-    assert check_contains_loop(sum_of_n_numbers)
+    assert sum_odd_numbers(input) == expected
+    assert check_contains_loop(sum_odd_numbers)
 
 @pytest.mark.parametrize("input, expected", [
-    (125, 8),
-    (5, 5),
-    (1234, 10),
-    (0, 0)
+    (6, True),
+    (28, True),
+    (12, False),
+    (496, True),
+    (8, False)
 ])
 def test3(input, expected):
-    assert sum_of_digits(input) == expected
-    assert check_contains_loop(sum_of_digits)
-
-@pytest.mark.parametrize("input, expected", [
-    (123, 3),
-    (9, 1),
-    (56741, 5),
-])
-def test4(input, expected):
-    assert count_digits(input) == expected
-    assert check_contains_loop(count_digits)
-
-@pytest.mark.parametrize("input, expected", [
-    (9, [5, 6, 7, 8, 9]),
-    (7, [5, 6, 7]),
-    (-2, [5, 4, 3, 2, 1, 0, -1, -2])
-])
-def test5(capsys, input, expected):
-    print_from_five_to(input)
-    captured = capsys.readouterr()
-    assert captured.out.strip().splitlines() == list(map(str, expected))
-    assert check_contains_loop(print_from_five_to)
+    assert is_perfect_number(input) == expected
+    assert check_contains_loop(sum_odd_numbers)
