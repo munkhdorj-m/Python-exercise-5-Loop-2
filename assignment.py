@@ -10,7 +10,3 @@ def sum_odd_numbers(num):
     # Write your code here
     pass
 
-# Exercise 3
-def is_perfect_number(num):
-    # Write your code here
-    pass
