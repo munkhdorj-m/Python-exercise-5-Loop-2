@@ -29,7 +29,7 @@ Find the factorial of a number
 
 **Problem:**
 
-Print the sum of first n odd natural numbers.
+Find the sum of first n odd natural numbers.
 _If input is 5. The odd numbers are: 1 3 5 7 9_
 
 **Example:**
