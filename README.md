@@ -1,8 +1,8 @@
 # Python LOOP 2
 
 Python Loops PPT:
-https://drive.google.com/drive/folders/1V9L54sGRVtGork9DONvOaFZq5krgh9TB?usp=sharing
-
+[https://drive.google.com/drive/folders/1V9L54sGRVtGork9DONvOaFZq5krgh9TB?usp=sharing
+](https://docs.google.com/presentation/d/1cRZd43s_xyNBLZ6vgFiUILPUMMtWDtBO/edit?usp=sharing&ouid=118175980541210638913&rtpof=true&sd=true)
 
 ---
 
