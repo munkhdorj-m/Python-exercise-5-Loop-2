@@ -1,26 +1,16 @@
 # You can remove 'pass' if you written code in the function 
 
 # Exercise 1
-def print_love_python():
+def find_factorial(num):
     # Write your code here
     pass
 
 # Exercise 2
-def sum_of_n_numbers(n):
+def sum_odd_numbers(num):
     # Write your code here
     pass
 
 # Exercise 3
-def sum_of_digits(number):
-    # Write your code here
-    pass
-
-# Exercise 4
-def count_digits(number):
-    # Write your code here
-    pass
-
-# Exercise 5
-def print_from_five_to(n):
+def is_perfect_number(num):
     # Write your code here
     pass
