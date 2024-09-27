@@ -10,21 +10,18 @@ https://drive.google.com/drive/folders/1V9L54sGRVtGork9DONvOaFZq5krgh9TB?usp=sha
 
 **Problem:**
 
-Print “I Love Python” 10 times.
+Find the factorial of a number
 
 **Example:**
 
-	 Output:
-	 I Love Python
-	 I Love Python
-	 I Love Python
-	 I Love Python
-	 I Love Python
-	 I Love Python
-	 I Love Python
-	 I Love Python
-	 I Love Python
-  	 I Love Python
+	Input: 5
+	Output: 120
+ 
+ 	Input: 10
+	Output: 3628800
+ 
+  	Input: 1
+	Output: 1
 
 ---
 
@@ -32,18 +29,19 @@ Print “I Love Python” 10 times.
 
 **Problem:**
 
-Find the sum of the first n numbers from 1.
+Print the sum of first n odd natural numbers.
+_If input is 5. The odd numbers are: 1 3 5 7 9_
 
 **Example:**
 
 	Input: 5
-	Output: 15
+	Output: 25
  
- 	Input: 11
-	Output: 66
+ 	Input: 2
+	Output: 4
  
-  	Input: 3
-	Output: 6
+  	Input: 10
+	Output: 100
 
 
 ---
@@ -52,70 +50,19 @@ Find the sum of the first n numbers from 1.
 
 **Problem:**
 
-Find sum of digits from number.
+Check if number is perfect number.
+_Perfect number is a positive integer that is equal to the sum of its positive proper divisors._
+_For example 6 is perfect number._
 
 **Example**
 
- 	Input: 125
-  	Output: 8
+ 	Input: 6
+  	Output: True
  
-  	Input: 5
-  	Output: 5
+  	Input: 15
+  	Output: False
  
-  	Input: 1234
-  	Output: 10
+  	Input: 28
+  	Output: True
 ---
 
-## Exercise 4
-
-**Problem:**
-
-Find how many digits number have.
-
-**Example**
-
-	Input: 123
-	Output: 3
- 
-	Input: 9
-	Output: 1
- 
-	Input: 56741
-	Output: 5
-
-
----
-
-## Exercise 5
-
-**Problem:**
-
-Print from 5 to given number.
-
-**Example**
-
-	Input: 9
-	Output: 
-	5
-	6
-	7
-	8
-	9
- 
-	Input: 7
-	Output: 
-	5
-	6
-	7
- 
-	Input: -2
-	Output: 
-	5
-	4
-	3
-	2
-	1
-	0
-	-1
-	-2
- 
