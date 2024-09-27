@@ -10,7 +10,7 @@ Python Loops PPT:
 
 **Problem:**
 
-Find the factorial of a number. _5! = 1*2*3*4*5_
+Find the factorial of a number. _5! = 1x2x3x4x5=120_
 
 **Example:**
 
