@@ -51,7 +51,7 @@ _If input is 5. The odd numbers are: 1 3 5 7 9_
 
 Check if number is perfect number.
 _Perfect number is a positive integer that is equal to the sum of its positive proper divisors._
-_For example 6 is perfect number._
+_For example 6 is perfect number. Because Divisors of 6 are 1,2,3 and 1+2+3=6_
 
 **Example**
 
